@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  b{
+    font-family: Montserrat-Bold;
+  }
+  
+  img{
+    max-width: 100%;
+    width: auto;
+  }
+
+  p{
+      margin: 0px;
+  }
+
+  .main-banner{
+    position: relative;
+    max-width: 1920px;
+    width: auto;
+    height: 746px;
+    background-image: url(../images/erp-smart_imgs/main-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #CADCDD;
+}
+
+.title{
+    display: grid;
+    justify-items: center;
+    align-content: start;
+}
+
+.title h1{
+    font-family: Montserrat-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 88px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+
+.background{
+    background: #d9e5e9;
+    padding-bottom: 300px;
+}
+
+.subtitle{
+    max-width: fit-content;
+    margin: auto;
+}
+
+.h2{
+font-family: Montserrat-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 49px;
+text-transform: uppercase;
+color: #37424B;
+mix-blend-mode: darken;
+}
+
+.tasks{
+    margin-top: 40px;
+}
+
+.tasks-list{
+    margin-top: 60px;
+    font-family: Montserrat-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+list-style-type: none;
+}
+
+.tasks-list li{
+    padding-left: 63px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.5) 77px, rgba(255,255,255,0.5) 77px, rgba(0,212,255,0) 77px, rgba(0,212,255,0) 100%);
+}
+
+.preview{
+    margin-top: 80px;
+    display: grid;
+    justify-items: center;
+}
+
+@media (max-width: 1199px){
+    .main-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    .main-banner{
+        height: 480px;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .main-container{
+        padding: 0px;
+    }
+    .main-banner{
+        height: 250px;
+        padding-top: 0px;
+    }
+    .title h1{
+        font-size: 24px;
+    }
+    .title img{
+        margin-top: -20px;
+    }
+    .subtitle h2{
+        font-size: 16px;
+    }
+    .tasks-list{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .tasks-list li{
+        padding-left: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(90deg, rgba(255,255,255,0.5) 32px, rgba(255,255,255,0.5) 32px, rgba(0,212,255,0) 32px, rgba(0,212,255,0) 100%);
+    }
+}

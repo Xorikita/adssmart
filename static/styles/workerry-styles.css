@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  b{
+    font-family: Montserrat-Bold;
+  }
+  
+  img{
+    max-width: 100%;
+    width: auto;
+  }
+
+  p{
+      margin: 0px;
+  }
+
+.main-banner{
+    position: relative;
+    max-width: 1920px;
+    width: auto;
+    height: 846px;
+    background-image: url(../images/workerry_imgs/workerry-banner.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 258px;
+}
+
+.title{
+   max-width: min-content; 
+   margin: auto;
+    width: auto;
+}
+
+.title h1{
+margin: 0px;
+font-family: Montserrat-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 140px;
+line-height: 171px;
+color: #6C7DD4;
+}
+
+.subtitle{
+    width: fit-content;
+    margin: auto;
+}
+
+.subtitle h2{
+font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+text-transform: uppercase;
+color: #6C7DD4;
+margin: 0px;
+}
+
+.tasks{
+    margin-top: 70px;
+}
+
+.tasks-list{
+    list-style-type: none;
+    counter-reset: num;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 41px;
+}
+
+.tasks-list li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #414045;
+margin-bottom: 15px;
+}
+
+.tasks-list li::before{
+    content: counter(num) '. ';
+    counter-increment: num;
+    font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+text-transform: uppercase;
+color: #6C7DD4;
+}
+
+.tasks-list p{
+    position: absolute;
+    left: 97px;
+}
+
+.colors-fonts{
+    margin-top: 70px;
+}
+
+.colors-fonts-grid{
+    margin-top: 40px;
+    display: grid;
+    row-gap: 60px;
+    grid-template-areas: 
+    "a  b"
+    "c  d";
+    font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #6C7DD4;
+}
+.cf-grid-a{
+    grid-area: a;
+    display: grid;
+    grid-template-rows:auto;
+}
+.cf-grid-b{
+    grid-area: b;
+    display: grid;
+    grid-template-rows:auto;
+}
+.cf-grid-c{
+    grid-area: c;
+    display: grid;
+    grid-template-rows:auto;
+}
+.cf-grid-d{
+    grid-area: d;
+    display: grid;
+    grid-template-rows:auto;
+}
+
+.desctop{
+    margin-top: 60px;
+}
+.desctop img{
+    margin-top: 50px;
+}
+
+.epilepsiya{
+    position: relative;
+    margin-top: 76px;
+    max-width: 1920px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.main-page{
+font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #6C7DD4;
+}
+
+.main-page-img{
+    position: relative;
+    margin: auto;
+    max-width: 855px;
+    width: auto;
+}
+.pink-sphere{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    left: 10px;
+    width: 1920px;
+    z-index: -1;
+}
+.rock1{
+    position: absolute;
+    bottom: -39px;
+    left: 763px;
+}
+.rock2{
+    position: absolute;
+    bottom: 488px;
+    right: 796px;
+}
+.rock3{
+    position: absolute;
+    top: 60px;
+    left: 776px;
+}
+
+.epilepsiya-dark{
+    position: relative;
+    max-width: 1920px;
+    background: #292C3E;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: -308px;
+    z-index: -2;
+}
+.epilepsiya-dark img{
+    box-shadow: 0px 0px 80px 60px rgba(255, 255, 255, 0.11);
+border-radius: 28px;
+}
+
+.epilepsiya-dark-content{
+position: relative;
+top: 308px;
+}
+
+.search-page-img{
+    margin-top: 15px;
+}
+
+.job-view-page{
+display: grid;
+justify-items: end;
+margin-top: -180px;
+}
+.job-view-page-img{
+    margin-top: 15px;
+}
+.account{
+    margin-top: 15px;
+}
+.account-img{
+    margin: auto;
+    margin-top: 15px;
+    max-width: 855px;
+    width: auto;
+}
+.calendar{
+    display: grid;
+    justify-items: end;
+    }
+.calendar-img{
+        margin-top: 15px;
+}
+.registration-form{
+   position: relative;
+   top: -130px;
+}
+
+.mobile{
+    margin-top: -60px;
+}
+.mobile-schema{
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+.table-mobs{
+    position: absolute;
+    display: grid;
+    width: 108vw;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 2vw;
+    top: 0px;
+    left: -4%;
+    transform: rotate(30deg);
+}
+
+.table-mobs img{
+    margin-top: 3vw;
+}
+.table-mobs .tb-1{
+    padding-top: 54vw;
+}
+.table-mobs .tb-2{
+    padding-top: 34vw;
+}
+.table-mobs .tb-3{
+    padding-top: 0px;
+}
+.tb-3 .shadow{
+    box-shadow: 48px 160px 128px rgba(0, 0, 0, 0.18);
+}
+
+.table-mobs .tb-4{
+    padding-top: 14vw;
+}
+.table-mobs .tb-5{
+    padding-top: 34vw;
+}
+
+.epilepsiya-rotate{
+    margin-top: -22.5vw;
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    overflow: hidden;
+    height: 140vw;
+}
+
+@media (max-width: 1199px){
+    .main-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .title h1{
+        font-size: 14vw;
+    }
+}
+
+@media (max-width: 1099px){
+    .tasks-list li{
+    margin-bottom: 30px;
+    }
+    .job-view-page{
+        margin-top: 15px;
+    }
+    .calendar{
+        margin-top: 15px;
+    }
+    .registration-form{
+        top: auto;
+        margin-top: 15px;
+    }
+    .mobile{
+        margin-top: 70px;
+    }
+    .epilepsiya-rotate{
+        margin-top: -12.5vw;
+    }
+}
+
+@media (max-width: 800px){
+    .main-banner{
+        height: 446px;
+        padding-top: 128px;
+    }
+    .colors-fonts-grid{
+        column-gap: 20px;
+    }
+    .epilepsiya-dark{
+        top: -238px;
+    }
+    .epilepsiya-dark img{
+    border-radius: 18px;
+    }
+    .mobile{
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .main-banner{
+        height: 201px;
+        padding-top: 0px;
+    }
+    .title h1{
+        font-size: 24px;
+    }
+    .subtitle h2{
+        font-size: 16px;
+    }
+    .tasks-list{
+        margin-top: 10px;
+    }
+    .tasks-list li{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .tasks-list li::before{
+        font-size: 18px;
+    }
+    .tasks-list p{
+        position: absolute;
+        left: 32px;
+    }
+    .colors-fonts{
+        margin-top: 25px;
+    }
+    .colors-fonts-grid{
+        margin-top: 10px;
+        font-size: 12px;
+        row-gap: 10px;
+    }
+    .epilepsiya{
+        padding-bottom: 20px;
+    }
+    .main-page{
+        font-size: 12px;
+    }
+    .epilepsiya-dark{
+        top: -82px;
+        font-size: 12px;
+    }
+    .epilepsiya-dark-content{
+        top: 82px;
+    }
+    .epilepsiya-dark img{
+        border-radius: 8px;
+        }
+        .mobile{
+            margin-top: 70px;
+        }
+    .tasks{
+        margin-top: 25px;
+    }
+    .desctop{
+        margin-top: 25px;
+    }
+    .desctop img{
+        margin-top: 10px;
+    }
+    .mobile{
+        margin-top: 20px;
+    }
+    .mobile-schema{
+        width: fit-content;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+

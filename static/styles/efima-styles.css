@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  b{
+    font-family: Montserrat-Bold;
+  }
+  
+  img{
+    max-width: 100%;
+    width: auto;
+  }
+
+  p{
+      margin: 0px;
+  }
+
+  .main-banner{
+    position: relative;
+    max-width: 1920px;
+    width: auto;
+    height: 970px;
+    background-image: url(../images/efima_imgs/main-banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    display: grid;
+    justify-items: end;
+    align-items: top;
+    padding-top: 34px;
+    padding-right: 20px;
+}
+
+.title h1{
+    font-family: Montserrat-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 88px;
+text-transform: uppercase;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+.ov-hid{
+    overflow: hidden;
+}
+
+.subtitle{
+    max-width: fit-content;
+    margin: auto;
+}
+
+.h2{
+font-family: Montserrat-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 49px;
+text-transform: uppercase;
+color: #37424B;
+mix-blend-mode: darken;
+}
+
+.goals-ob-content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.subtitle-h3{
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.subtitle-h3 .line{
+    position: absolute;
+    top: 49%;
+    left: -920px;
+    width: 1000px;
+    background: #CBCBCB;
+    border: none;
+    height: 2px;
+}
+
+.subtitle-h3 h3{
+font-family: Montserrat-Regular;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #CBCBCB;
+}
+
+.goals-ob-content-text{
+font-family: Montserrat-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+color: #000000;
+}
+
+.goals-ob-content-img{
+    margin-top: 40px;
+    margin-right: -200px;
+}
+
+.styles-prev{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a a"
+    "b c";
+align-content: start;
+justify-content: start;
+row-gap: 70px;
+}
+.ef-logotipe{
+    grid-area: a;
+    justify-self: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: auto;
+}
+.ef-fonts{
+    grid-area: b;
+    display: grid;
+    grid-template-rows: min-content;
+}
+.ef-colors{
+    grid-area: c;
+    display: grid;
+    grid-template-rows: min-content;
+}
+.styles-prev img{
+    margin-top: 40px;
+}
+.desctop{
+    margin-top: 70px;
+}
+.desctop img{
+    margin-top: 40px;
+}
+
+.h4{
+font-family: Montserrat-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-transform: uppercase;
+color: #37424B;
+mix-blend-mode: normal;
+}
+.prev-mobile{
+    margin-top: 70px;
+}
+.background{
+    position: relative;
+    width: 1920px;
+}
+.background img{
+    position: absolute;
+    z-index: -1;
+    top: 48px;
+    left: 0px;
+}
+
+.main-p-img{
+    margin: auto;
+    width: fit-content;
+    height: 364.29px;
+    border: 20px solid #D8D8D8;
+    border-radius: 40px;
+}
+
+.shadow{
+    box-shadow: 2px 13px 70px -6px rgba(107, 105, 91, 0.45);
+border-radius: 22px;
+}
+.favorites-p{
+    margin-top: 910px;
+}
+.favorites-p-img{
+    margin-top: 10px;
+}
+.task-view-p{
+    display: grid;
+    justify-items: end;
+    margin-top: -176px;
+}
+
+.mobile {
+    margin-top: 90px;
+}
+
+.mobile-block{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 40px;
+}
+
+.mockup-rel{
+    position: relative;
+}
+ .mockup-abs{
+     position: absolute;
+     left: -240px;
+     right: -280px;
+     top: -200px;
+     z-index: -1;
+ }
+
+ .four-mobile{
+     margin-top: 290px;
+     margin-bottom: 220px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 22px;
+ }
+
+ .mobile-1{
+     padding-top: 80px;
+ }
+
+ .mobile-3{
+    margin-top: 130px;
+ }
+.mobile-4{
+    padding-top: 74px;
+}

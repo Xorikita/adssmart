@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  b{
+    font-family: Montserrat-Bold;
+  }
+  
+  img{
+    max-width: 100%;
+    width: auto;
+  }
+
+.page{
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.title{
+    width: min-content;
+    margin-top: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #293849;
+}
+
+.service-block{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.subtitle{
+    position: absolute;
+    left: 40%;
+    right: 0px;
+    top: 0px;
+}
+
+.subtitle h2{
+    margin: 0px;
+    font-family: Montserrat-Bold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.03em;
+    color: #2F2F2F;
+}
+
+.line{
+    height: 2px;
+    background: #496284;
+    border: none;
+    width: 1500px;
+}
+
+.subt2s{
+    padding-top: 200px;
+}
+.subt1s{
+    padding-top: 120px;
+}
+
+.text{
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    max-width: 1150px;
+    width: auto;
+    margin-top: 0px;
+}
+
+@media (max-width: 1199px){
+    .main-container{
+        padding: 20px;
+    }
+}
+@media (max-width: 1000px){
+    .subtitle h2{
+        line-height: 39px;
+        font-size: 32px;
+    }
+    .subt2s{
+        padding-top: 120px;
+    }
+    .subt1s{
+        padding-top: 80px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .main-container{
+        padding: 0px;
+    }
+    .subtitle{
+        left: 20%;
+    }
+    .subtitle h2{
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .subt2s{
+        padding-top: 90px;
+    }
+    .subt1s{
+        padding-top: 60px;
+    }
+}
