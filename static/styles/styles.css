@@ -33,7 +33,7 @@ img{
 }
 
 .header-menu-item:hover .underline{
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(229, 229, 229, 1) 50%, rgba(229, 229, 229, 1) 100%);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(229, 229, 229, 1) 50%, rgba(229, 229, 229, 1) 100%);
 }
 
 .main-banner{

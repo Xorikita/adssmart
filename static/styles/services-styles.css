@@ -19,6 +19,10 @@
     width: auto;
   }
 
+.header-menu-item:hover .underline{
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 90%, rgb(52, 76, 102) 90%, rgba(52, 76, 102, 1) 100%);
+}
+
 .page{
     overflow: hidden;
     margin-bottom: 200px;
