@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+  }
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-row{flex-direction: row;}.f-column{flex-direction: column;}
+.f-align-center{align-items: center;}.f-align-start{align-items: flex-start;}.f-align-end{align-items: flex-end;}
+.f-justify-center{justify-content: center;}.f-justify-between{justify-content: space-between;}.f-justify-around{justify-content: space-around;}.f-justify-start{justify-content: flex-start;}.f-justify-end{justify-content: flex-end;}
+
+
+.relative{
+    position: relative;
+}

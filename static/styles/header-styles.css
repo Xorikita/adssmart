@@ -1,3 +1,4 @@
+@import 'flex.css';
 .main-container{
     max-width: 1180px;
     width: auto;
@@ -5,10 +6,6 @@
    }
    
    .header{
-     position: relative;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
    height: 102px;
    }
    
@@ -17,25 +14,18 @@
      padding-top: 9px;
    }
    
-   .header-menu{
-     display: flex;
-     flex-direction: row;
-   }
-   
    .header-menu-button-mobile{
      display: none;
    }
    
-   .header-menu-button-mobile img{
+   .header-menu-button-mobile {
      width: 60px;
-     height: auto;
+     height: 20px;
+     border-top: 10px solid #b3bad1;
+     border-bottom: 10px solid #b3bad1;
    }
 
    .header-menu-item{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-left: 60px;
   }
 
@@ -61,11 +51,12 @@
     }
     .header-menu-button-mobile{
       position: absolute;
+      left: 5px;
+      top: 12.5px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 60px;
+
+      height: 35px;
     }
     .header .logo {
       margin-left: auto;
@@ -92,11 +83,12 @@
       height: 31px;
     }
     .header-menu-button-mobile{
-      height: 31px;
-    }
-    .header-menu-button-mobile img{
-      height: 10px;
-      width: auto;
+      top: 7px;
+      left: 2px;
+      width: 31px;
+      height: 17px;
+      border-top: 5px solid #b3bad1;
+     border-bottom: 5px solid #b3bad1;
     }
     .header .logo img{
       height: 54px;
