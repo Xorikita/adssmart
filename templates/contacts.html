@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
+    <link href="../static/styles/flex.css" rel="stylesheet" type="text/css">
     <link href="../static/styles/header-styles.css" rel="stylesheet" type="text/css">
     <link href="../static/styles/footer-styles.css" rel="stylesheet" type="text/css">
     <link href="../static/styles/styles.css" rel="stylesheet" type="text/css">
     <link href="../static/styles/font-styles.css" rel="stylesheet" type="text/css">
+    <link href="../static/styles/contacts_block.css" rel="stylesheet" type="text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -26,8 +28,9 @@
 </header>
 <div style="overflow: hidden;">
 <div class="main-banner blur">
-    <div style="z-index: 10;" class="main-container main-banner-contact flex f-column f-justify-center f-align-center relative">
+    <div class="main-container main-banner-contact flex f-column f-justify-center f-align-center relative">
         <h1 class="contacts-title">Контакты</h1>
+        <div class="relative">
         <div class="contacts-block">
             <div class="contacts-keys flex f-column f-justify-center">
                 <p>Телефон</p>
@@ -41,6 +44,17 @@
                 <p>Есть вопросы? Оставьте заявку<br> на сайте и мы с вами свяжемся</p>
                 <div class="main-banner-button flex-center"><a href="#">Оставить заявку</a></div>
             </div>
+        </div>
+        <div class="contact-block_light">
+            <div class="faq-form">
+                <input placeholder="Телефон" type="tel" class="faq-input">
+                <input placeholder="e-mail" type="email" class="faq-input">
+                <textarea placeholder="Введите ваш вопрос" type="text" class="faq-input" rows="6"></textarea>
+                <div class="flex flex-center">
+                <div class="main-banner-button-light flex-center"><a href="#">Оставить заявку</a></div>
+                </div>
+            </div>
+        </div>
         </div>
         <!-- <h1 class="title">ADS.Smart</h1>
         <p class="main-banner-desc">воплощаем идеи в жизнь</p>

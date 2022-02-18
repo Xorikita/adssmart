@@ -1,0 +1,63 @@
+.contact-block_light{
+    position: absolute;
+    display: grid;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #FFFFFF;
+    opacity: 0;
+}
+
+.faq-form{
+    max-width: 380px;
+    margin: auto;
+    display: grid;
+    align-self: center;
+}
+
+.faq-form input, textarea{
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.faq-input{
+    width: 380px;
+    padding: 12px 10px;
+    background: #F0F0F0;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #929292;
+    border: none;
+    outline: none;
+}
+
+.main-banner-button-light{
+    width: 253px;
+    height: 53px;
+    border: 2px solid #293849;
+  box-sizing: border-box;
+  transition-duration: .3s;
+  }
+  
+  .main-banner-button-light:hover{
+    background: #293849;
+  }
+  
+  .main-banner-button-light:hover a{
+    color: #FFFFFF;
+  }
+  
+  .main-banner-button-light a{
+    text-decoration: none;
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #293849;
+  transition-duration: .3s;
+  }
