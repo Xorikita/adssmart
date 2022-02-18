@@ -18,6 +18,10 @@ img{
   width: auto;
 }
 
+.blur{
+  backdrop-filter: blur(10px);
+;}
+
 .main-container{
  max-width: 1180px;
  width: auto;
@@ -48,6 +52,70 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 
 .main-banner-content{
   height: 673px;
   transform: translate(0, -6.5%);
+}
+
+.main-banner-contact{
+  height: 673px;
+  }
+
+.contacts-title{
+font-family: Montserrat-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 46px;
+}
+
+.contacts-block{
+width: 780px;
+height: 450px;
+mix-blend-mode: normal;
+border: 10px solid #FFFFFF;
+box-sizing: border-box;
+display: grid;
+padding-right: 100px;
+padding-left: 100px;
+grid-template-areas: 
+"a b"
+"c c";
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+
+.contacts-keys{
+grid-area: a;
+font-family: Montserrat-Regular;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.contacts-info{
+grid-area: c;
+font-family: Montserrat-Regular;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+display: grid;
+justify-items: center;
+}
+.contacts-info p{
+  margin: 0px;
+}
+
+.contacts-value{
+grid-area: b;
+font-family: Montserrat-Bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
 
 .main-banner-image{
