@@ -7,6 +7,8 @@
     left: 0;
     background: #FFFFFF;
     opacity: 0;
+    z-index: -1;
+    transition-duration: .8s;
 }
 
 .faq-form{
@@ -17,7 +19,7 @@
 }
 
 .faq-form input, textarea{
-    margin-bottom: 15px;
+    margin-bottom: 22px;
     resize: none;
 }
 
@@ -36,7 +38,7 @@
 }
 
 .main-banner-button-light{
-    width: 253px;
+    width: 320px;
     height: 53px;
     border: 2px solid #293849;
   box-sizing: border-box;
@@ -58,6 +60,34 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
+  letter-spacing: 0.02em;
   color: #293849;
+  transition-duration: .3s;
+  }
+
+  .main-banner-button-dark{
+    width: 320px;
+    height: 53px;
+    border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  transition-duration: .3s;
+  }
+  
+  .main-banner-button-dark:hover{
+    background: #FFFFFF;
+  }
+  
+  .main-banner-button-dark:hover a{
+    color: #293849;
+  }
+  
+  .main-banner-button-dark a{
+    text-decoration: none;
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
   transition-duration: .3s;
   }
