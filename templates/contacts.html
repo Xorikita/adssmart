@@ -46,14 +46,14 @@
             </div>
         </div>
         <div class="contact-block_light">
-            <div class="faq-form">
-                <input placeholder="Телефон" type="tel" class="faq-input">
-                <input placeholder="e-mail" type="email" class="faq-input">
-                <textarea placeholder="Введите ваш вопрос" type="text" class="faq-input" rows="6"></textarea>
+            <form action="../scripts/send.php" method="post" class="faq-form">
+                <input name="phone" placeholder="Телефон" type="tel" class="faq-input">
+                <input name="email" required placeholder="e-mail" type="email" class="faq-input">
+                <textarea name="message" placeholder="Введите ваш вопрос" type="text" class="faq-input" rows="6"></textarea>
                 <div class="flex flex-center">
-                <div class="main-banner-button-light flex-center"><a href="#">Оставить заявку</a></div>
+                <div class="main-banner-button-light flex-center"><input type="submit" name="submit" value="Submit">Оставить заявку</div>
                 </div>
-            </div>
+            </form>
         </div>
         </div>
     </div>
