@@ -22,6 +22,15 @@ img{
   backdrop-filter: blur(10px);
 ;}
 
+.logo{
+  padding: 6px;
+}
+
+.logo img{
+  object-fit: contain;
+  max-height: -webkit-fill-available;
+}
+
 .main-container{
  max-width: 1180px;
  width: auto;
@@ -35,6 +44,7 @@ img{
   max-width: 100%;
   width: auto;
   transform: translate(0%, 56%);
+  z-index: 5;
 }
 
 .header-menu-item:hover .underline{
