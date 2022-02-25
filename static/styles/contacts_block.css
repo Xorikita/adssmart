@@ -42,11 +42,20 @@
     height: 53px;
     border: 2px solid #293849;
   box-sizing: border-box;
+  background: #FFFFFF;
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #293849;
   transition-duration: .3s;
   }
   
   .main-banner-button-light:hover{
     background: #293849;
+    color: #FFFFFF;
   }
   
   .main-banner-button-light:hover a{

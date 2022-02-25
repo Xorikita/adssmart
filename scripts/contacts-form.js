@@ -5,8 +5,8 @@ button_dark.addEventListener("click", () => {
     light_form.style.zIndex = "1";
     light_form.style.opacity = "1";
 })
-button_light.addEventListener("click", () => {
-    const light_form = document.querySelector(".contact-block_light")
-    light_form.style.zIndex = "-1";
-    light_form.style.opacity = "0";
-})
+// button_light.addEventListener("click", () => {
+//     const light_form = document.querySelector(".contact-block_light")
+//     light_form.style.zIndex = "-1";
+//     light_form.style.opacity = "0";
+// })
