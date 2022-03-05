@@ -30,20 +30,20 @@ window.setTimeout("changeurl();",3000);
 
 <?
 if(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest' && !empty($_POST['email'])) {
-    $message = 'Имя: ' . $_POST['email'] . ' ';
-    $message .= 'Телефон: ' . $_POST['phone'] . ' ';
+    $message = 'Email: ' . $_POST['email'] . ' ';
+    $message .= 'Телефон: ' . $_POST['phone'] . "\n";
     if(!empty($_POST['message'])) {
-        $message .= 'Текст: ' . $_POST['message'] . ' ';
+        $message .= 'Сообщение: ' . $_POST['message'] . ' ';
     }
     $mailTo = "sedrin880@gmail.com"; // Ваш e-mail
-    $subject = "Письмо с сайта"; // Тема сообщения
-    $headers= "MIME-Version: 1.0\r\n";
+    $subject = "Сообщение с сайта"; // Тема сообщения
+    $headers= "Adssmart\r\n";
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
-    $headers .= "From: sedrin880@gmail.com <sedrin880@gmail.com>\r\n";
+    $headers .= "From: adssmart.ru <adssmart.ru>\r\n";
     if(mail($mailTo, $subject, $message, $headers)) {
-        echo "Спасибо, ".$_POST['email'].", мы свяжемся с вами в самое ближайшее время!"; 
+        echo "Спасибо за обращение!". "\n". "Мы свяжемся с вами в ближайшее время"; 
     } else {
-        echo "Сообщение не отправлено!"; 
+        echo "Сообщение не отправлено!";
     }
 }
 ?>

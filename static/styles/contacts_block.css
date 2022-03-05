@@ -49,6 +49,7 @@
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.02em;
+  cursor: pointer;
   color: #293849;
   transition-duration: .3s;
   }
@@ -79,6 +80,7 @@
     height: 53px;
     border: 2px solid #FFFFFF;
   box-sizing: border-box;
+  cursor: pointer;
   transition-duration: .3s;
   }
   

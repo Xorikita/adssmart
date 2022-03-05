@@ -24,7 +24,7 @@ $(document).ready(function () {
             data: formNm.serialize(),
             beforeSend: function () {
                 // Вывод текста в процессе отправки
-                $(formNm).html('<p style="text-align:center">Отправка...</p>');
+                $(formNm).html('<p style="text-align:center; font-family: Montserrat-Medium; font-size: 24px; line-height: 29px; text-align: center; letter-spacing: 0.02em; color: #293849;">Отправка...</p>');
             },
             success: function (data) {
                 // Вывод текста результата отправки
