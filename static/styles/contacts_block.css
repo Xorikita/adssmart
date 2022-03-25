@@ -100,3 +100,49 @@
   color: #FFFFFF;
   transition-duration: .3s;
   }
+
+  @media (max-width: 800px){
+    .contacts-block{
+        padding-left: 20px;
+        padding-right: 20px;
+        max-height: 250px;
+        max-width: 500px;
+    }
+    .contact-block_light{
+      padding-left: 20px;
+      padding-right: 20px;
+      max-height: 250px;
+      max-width: 500px;
+  }
+    .main-banner-contact{
+      max-height: 350px;
+    }
+    .contacts-title{
+      margin: 10px;
+      font-size: 26px;
+    }
+    .contacts-keys{
+      font-size: 16px;
+    }
+    .contacts-value{
+      font-size: 16px;
+    }
+    .contacts-info{
+      font-size: 16px;
+    }
+    .main-banner-button-dark{
+      width: 170px;
+      height: 30px;
+    }
+    .main-banner-button-dark a{
+      font-size: 16px;
+    }
+    .contacts-block p{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .contacts-info p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+}
